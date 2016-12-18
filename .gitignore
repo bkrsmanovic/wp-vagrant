@@ -1,0 +1,51 @@
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+*.css.map
+.sass-cache
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore Vagrant environment
+/.vagrant/
+
+# ignore htaccess
+/.htaccess
+
+# ignore wp-config
+/wp-config.php
+
+/wp-content/uploads
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/w3tc-config/
